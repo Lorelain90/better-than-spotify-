@@ -11,6 +11,7 @@
         <li>Node Js</li>
         <li>Express Js</li>
         <li>Jest</li>
+        <li>TypeScript</li>
         <li>npm</li>
         <li>Bootstrap/React Boostrap</li>
 </ul>
