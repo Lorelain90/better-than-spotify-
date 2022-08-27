@@ -2,7 +2,7 @@
 
 ## 🛠️ Mockup del proyecto
 
-![Mockup]()
+![Mockup](assets/BetterthanSpotify.png)
 
 ## ⚙️ Tecnologías utilizadas en el proyecto
 
@@ -23,12 +23,13 @@
     
 <ul>
         <li>Clonamos el repositorio utilizamos el comando:</li>
-            <p>git clone https://github.com/Lorelain90/better-than-spotify.git</p>
+            <p>git clone <i>https://github.com/Lorelain90/better-than-spotify.git</i></p>
         <li>Instalamos Node Package Manager: </li>
             <p>npm install / npm i</p>
-        <li>Abrimos sesión en https://developer.spotify.com/dashboard y "creamos una app" y:</li>
-        <li>Creamos un documento ".env" en fuera del archivo src de: </li>
-            <p>📂"client" / "client-ionic" </p>
+            <p>*** En el "server-nest" además, tenemos que ejecutar el comando (para que cree el archivo "dist"): <p>npm run build</p></p>
+        <li>Abrimos sesión en <i>https://developer.spotify.com/dashboard</i>, clicamos en"crear una app" y  dentro de esta, en "Editar ajustes", agregamos <i>http://localhost:8100</i> en el apartado de "Redirigir URIs" </li>
+        <li>Creamos un documento ".env" fuera del archivo src de: </li>
+            <p>📂"client" / "client-ionic"</p>
             <ul>
                 <li>REACT_APP_REDIRECT_URI= http://localhost:8100</li>
                 <li>REACT_APP_CLIENT_ID= _ _ _ _ _ _ _ _(El que nos aporta la página al crear la app)</li>
