@@ -6,9 +6,6 @@
   "private": true,
   "license": "UNLICENSED",
   "main": "./dist/main.js",
-  "engines": {
-    "node": "14.15.3"
-  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
