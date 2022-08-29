@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../../App.css';
 import SpotifyPlayer from 'react-spotify-web-playback';
 
 export default function Player({ accessToken, trackUri }: any){
