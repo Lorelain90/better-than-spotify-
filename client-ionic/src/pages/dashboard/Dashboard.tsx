@@ -4,7 +4,7 @@ import React, { useState, useEffect }  from 'react';
 import useAuth from '../../services/useAuth';
 import Player from '../../components/player/Player';
 import TrackSearchResults from '../../components/trackSearchResults/TrackSearchResults';
-import './Dashboard.css';
+import '../../App.css';
 import SpotifyWebApi from "spotify-web-api-node";
 
 const spotifyApi = new SpotifyWebApi({
